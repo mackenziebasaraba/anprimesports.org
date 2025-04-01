@@ -1,0 +1,13 @@
+{{- $location := .Get "location" -}}
+{{- $cords := .Get "cords" -}}
+{{- $players := .Get "player" -}}
+<dl>
+    <dt>Location</dt>
+    <dd>{{ $location }}</dd>
+
+    <dt>Coordinates</dt>
+    <dd>{{ $cords }}</dd>
+
+    <dt>Built by,</dt>
+    <dd>{{ $players }}</dd>
+</dl>
