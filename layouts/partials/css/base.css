@@ -1,0 +1,127 @@
+*::after,
+*::before {
+    box-sizing:border-box
+}
+
+:root {
+    --h1: clamp(2.244rem, 1.930rem + 1.569vw, 3.813rem);
+    --h2: clamp(1.875rem, 1.65rem + 1.125vw, 3rem); 
+    --h3: clamp(1.625rem, 1.462rem + 0.813vw, 2.438rem);
+    --h4: clamp(1.381rem, 1.27rem + 0.557vw, 1.938rem);
+    --h5: clamp(1.2rem, 1.127rem + 0.363vw, 1.563rem);
+    --h6: clamp(1.044rem, 1.003rem + 0.206vw, 1.25rem); 
+    --p:  clamp(1.2rem, 0.34vi + 0.91rem, 1.19rem);
+    --sm: clamp(0.8rem, 0.17vi + 0.76rem, 0.89rem);
+
+}
+
+body {
+    background: var(--bg);
+    color: var(--txt);
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+body nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav {
+
+}
+
+main {
+    padding: 20px 30px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    max-width: 55rem;
+    margin: auto;
+}
+
+
+main > * {
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--ff-h)
+}
+
+main > h1 {
+    text-align: center;
+    font-size: var(--h1); 
+}
+
+main > h2 {
+    font-size: var(--h2);
+}
+
+main > h3 {
+    font-size: var(--h3);
+}
+
+main > h4 {
+    font-size: var(--h4);
+}
+
+main > h5 {
+    font-size: var(--h5);
+}
+
+
+main > p {
+    font-size: var(--p);
+}
+
+main > small {
+    font-size: var(--q);
+}
+
+article {
+    max-width: 40rem;
+    margin: auto;
+}
+
+blockquote, q {
+    font-style: italic;
+}
+
+cite:before {
+    content: "\2014"
+}
+cite {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    text-align: right;
+}
+
+video {
+    max-width: 100%;
+    max-height: 60vh;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+img, figure {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.quote {
+    max-width: 45ch;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: var(--gen-margin);
+}
+
+.quote cite, .quote blockquote {
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+}
