@@ -1,0 +1,164 @@
+{
+    "mapart": [
+        {
+            "src": "tux.png",
+            "name": "Tux",
+            "builder": "pawmso"
+        },
+        {
+            "src": "shadow.png",
+            "name": "Shadow",
+            "builder": "pawmso"
+        },
+        {
+            "src": "mishima.png",
+            "name": "Mishima",
+            "builder": "pawmso"
+        },
+        {
+            "src": "sonic.png",
+            "name": "Sonic",
+            "builder": "pawmso"
+        },
+        {
+            "src": "miku-police.png",
+            "name": "Miku's Under Arrest",
+            "builder": "pawmso"
+        },
+        {
+            "src": "jack-bros.png",
+            "name": "Jack Bros",
+            "builder": "pawmso"
+        },
+        {
+            "src": "put-on-the-cat-ears.png",
+            "name": "Put on the Cat Ears",
+            "builder": "pilkerton"
+        },
+        {
+            "src": "anprim.png",
+            "name": "Anprim E-Sports",
+            "builder": "pawmso"
+        },
+        {
+            "src": "demon-summoning-program.png",
+            "name": "The Demon Summoning Program",
+            "builder": "pawmso"
+        },
+        {
+            "src": "persona-4.png",
+            "name": "Investigation Team",
+            "builder": "pawmso"
+        },
+        {
+            "src": "teddy-k.png",
+            "name": "Ted Kazynski",
+            "builder": "pawmso"
+        },
+        {
+            "src": "shipnote.png",
+            "name": "Shipnote",
+            "builder": "pawmso"
+        },
+        {
+            "src": "exam-season.png",
+            "name": "mfw it's exam season",
+            "builder": "pawmso"
+        },
+        {
+            "src": "cynthia.png",
+            "name": "Cynthia",
+            "builder": "pawmso"
+        },
+        {
+            "src": "lain.png",
+            "name": "The Wired",
+            "builder": "pawmso"
+        },
+        {
+            "src": "yanderedev.png",
+            "name": "Yandere Dev",
+            "builder": "pawmso"
+        },
+        {
+            "src": "vending-machine.png",
+            "name": "Vending Machine",
+            "builder": "pawmso"
+        },
+        {
+            "src": "buff-monokuma.png",
+            "name": "Buff Ass Monokuma",
+            "builder": "pawmso"
+        },
+        {
+            "src": "texas-cat.png",
+            "name": "True Patriot",
+            "builder": "pawmso"
+        },
+        {
+            "src": "the-perfect-side-fella.png",
+            "name": "THE PERFECT #SIDEFELLA",
+            "builder": "pawmso"
+        },
+        {
+            "src": "mineplex-cant-connect.png",
+            "name": "tfw mineplex dead",
+            "builder": "pawmso"
+        },
+        {
+            "src": "nietzsche.png",
+            "name": "Nietzche",
+            "builder": "pawmso"
+        },
+        {
+            "src": "chris-chan.png",
+            "name": "Love Quest",
+            "builder": "pawmso"
+        },
+        {
+            "src": "cool-cat.png",
+            "name": "Cool Cat",
+            "builder": "pawmso"
+        },
+        {
+            "src": "cat.png",
+            "name": "Cat",
+            "builder": "pawmso"
+        },
+        {
+            "src":  "this-man.png",
+            "name": "Ever Dream This Man?",
+            "builder": "pilkerton"
+        },
+        {
+            "src":  "woman.png",
+            "name": "tfw woman",
+            "builder": "pilkerton"
+        },
+        {
+            "src":  "gay-bear.png",
+            "name": "Gay Bear",
+            "builder": "pawmso"
+        },
+        {
+            "src": "women.png",
+            "name": "Women",
+            "builder": "pawmso"
+        },
+        {
+            "src":  "henry-dragger.png",
+            "name": "Henry Dragger",
+            "builder": "pawmso"
+        },
+        {
+            "src":  "do-the-thug-shaker.png",
+            "name": "DO THE THUG SHAKER",
+            "builder": "pawmso"
+        },
+        {
+            "src":  "asuka.png",
+            "name": "Asuka",
+            "builder": "pawmso"
+        }
+    ]
+}
