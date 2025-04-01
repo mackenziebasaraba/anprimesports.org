@@ -1,4 +1,4 @@
-baseURL: https://anprimesports.org/
+baseURL: https://mackenziebasaraba.github.io/anprimesports.org/
 languageCode: en-ca
 title: Anprim E-Sports
 timeZone: America/Edmonton
@@ -14,7 +14,7 @@ params:
     description: Join now at anprimesports.org!
     frontmatter:
       lastmod:
-        - lastmod 
+        - lastmod
         - :fileModTime
         - publishDate
 
