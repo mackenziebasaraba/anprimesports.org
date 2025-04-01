@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}" colour-mode="light">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body>
+        <div class="wrapper">
+        {{ partial "header.html" . }}
+        <hr>
+            {{- block "main" . -}}
+            {{- end -}}
+        <footer>
+                <p style="text-align: center"><a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a></p>
+        </footer>
+        </div>
+    </body>
+    <script>
+    {{- block "script" . -}}
+    {{- end -}}
+    </script>
+</html>

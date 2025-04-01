@@ -1,0 +1,18 @@
+{{- define "style" -}}
+
+{{- end -}}
+{{- define "main" -}}
+<div class="second-wrapper">
+<h1 id="{{ .Title }}" class="article-title">{{ .Title | markdownify }}</h1>
+<div class="grid-default">
+<div class="main-content">
+        <main>
+        <article>
+{{ .Content }}
+</article>
+        </main>
+</div>
+{{ partial "sidemenu.html" . }}
+</div>
+</div>
+{{- end -}}
