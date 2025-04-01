@@ -1,5 +1,9 @@
 name: Deploy Hugo Site to GitHub Pages
 
+permissions:
+  contents: write
+  id-token: write
+
 on:
   push:
     branches:
@@ -22,9 +26,6 @@ jobs:
         run: hugo --minify
 
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
         with:
-          branch: gh-pages
-          folder: public
-          target_branch: main
+          token: ${{ secrets.GITHUB_TOKEN }}
