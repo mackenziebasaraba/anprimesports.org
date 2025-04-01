@@ -1,0 +1,26 @@
+<div class="information">
+<div class="information-border">
+<h3>Coordinates:</h3>
+{{ with .Params.x }}<p><b>X:</b> {{ . }}</p>{{ end }}
+{{ with .Params.z }}<p><b>Z:</b> {{ . }}</p>{{ end }}
+{{ with .Params.removed }}<p>{{ . }}</p>{{ end }}
+
+<h3>Built by:</h3>
+        <p>
+    {{ range $i, $e := .Params.builders -}}
+    {{- if $i -}}, {{ end -}}
+    <a href='{{ "/builders/" | relLangURL }}{{ . | urlize }}'>{{ $e }}</a>
+{{- end -}}
+        </p>
+
+        <h3>Tagged:</h3>
+        <div class="taglist special">
+            <p>
+{{ range $i, $e := .Params.tags -}}
+    {{- if $i -}}, {{ end -}}
+    <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ $e | humanize }}</a>
+{{- end -}}
+        </p>
+        </div>
+</div>
+</div>
