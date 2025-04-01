@@ -10,14 +10,6 @@
     --lineHeight: 1.6;
 
     /* Fonts */
-    --hFont: valkyrie-c4;
-    --pFont: valkyrie;
-    --bFont: valkyrie;
-    --iFont: valkyrie;
-    --biFont: valkyrie;
-    --abbrFont: valkyrie-c4;
-    --smallcaps: valkyrie-c4;
-    --codeFont:;
 
     /* Margins */
     --titleMargin:;
@@ -66,98 +58,6 @@
     }
 }
 
-@font-face {
-    font-family: valkyrie;
-    font-style: normal;
-    font-weight: normal;
-    font-stretch: normal;
-    src: url('/fonts/valkyrie/valkyrie-t4.woff2') format('woff2'),
-         url('/fonts/valkyrie/valkyrie-t4.woff') format('woff');
-}
-
-@font-face {
-    font-family: valkyrie;
-    font-style: italic;
-    font-weight: normal;
-    font-stretch: normal;
-    src: url('/fonts/valkyrie/valkyrie-t4-italic.woff2') format('woff2'),
-         url('/fonts/valkyrie/valkyrie-t4-italic.woff') format('woff');
-}
-
-@font-face {
-    font-family: valkyrie;
-    font-style: normal;
-    font-weight: bold;
-    font-stretch: normal;
-    src: url('/fonts/valkyrie/valkyrie-t4-bold.woff2') format('woff2'),
-         url('/fonts/valkyrie/valkyrie-t4-bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: valkyrie;
-    font-style: italic;
-    font-weight: bold;
-    font-stretch: normal;
-    src: url('/fonts/valkyrie/valkyrie-t4-bold-italic.woff2') format('woff2'),
-         url('/fonts/valkyrie/valkyrie-t4-bold-italic.woff') format('woff');
-}
-
-@font-face {
-    font-family: valkyrie-c4;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: small-caps;
-    font-stretch: normal;
-    src: url('/fonts/valkyrie/valkyrie-c4.woff2') format('woff2'),
-         url('/fonts/valkyrie/valkyrie-c4.woff') format('woff');
-}
-
-@font-face {
-    font-family: valkyrie-c4;
-    font-style: normal;
-    font-weight: bold;
-    font-variant: small-caps;
-    font-stretch: normal;
-    src: url('/fonts/valkyrie/valkyrie-c4-bold.woff2') format('woff2'),
-         url('/fonts/valkyrie/valkyrie-c4-bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: triplicate;
-    font-style: normal;
-    font-weight: normal;
-    font-stretch: normal;
-    src: url('/fonts/triplicate-t4/triplicate_t4_regular.woff2') format('woff2'),
-         url('/fonts/triplicate-t4/triplicate_t4_regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: triplicate;
-    font-style: italic;
-    font-weight: normal;
-    font-stretch: normal;
-    src: url('/fonts/triplicate-t4/triplicate_t4_italic.woff2') format('woff2'),
-         url('/fonts/triplicate-t4/triplicate_t4_italic.woff') format('woff');
-}
-
-@font-face {
-    font-family: triplicate;
-    font-style: normal;
-    font-weight: bold;
-    font-stretch: normal;
-    src: url('/fonts/triplicate-t4/triplicate_t4_bold.woff2') format('woff2'),
-         url('/fonts/triplicate-t4/triplicate_t4_bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: triplicate;
-    font-style: italic;
-    font-weight: bold;
-    font-stretch: normal;
-    src: url('/fonts/triplicate-t4/triplicate_t4_bold_italic.woff2') format('woff2'),
-         url('/fonts/triplicate-t4/triplicate_t4_bold_italic.woff') format('woff');
-}
-
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, code,
@@ -184,7 +84,6 @@ body {
     color: var(--textColour);
     font-size: 16px;  /* IE default 16px */
     line-height: var(--lineHeight);  /* 1.6875 x 16px = 27px */
-    font-family: var(--pFont);
 }
 
 main {
@@ -211,8 +110,6 @@ i, .subtitle, em, blockquote {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--hFont);
-    font-variant: small-caps
 }
 
 h1 {
@@ -253,8 +150,6 @@ a:hover {
 }
 
 abbr {
-    font-family: var(--abbrFont);
-    font-variant: small-caps;
     text-decoration: none;
 }
 
@@ -324,7 +219,6 @@ header nav {
     margin-top: 2rem;
     justify-content: space-between;
     padding: 0rem;
-    font-family: triplicate, monospace;
 }
 
 header nav ul {
@@ -366,7 +260,6 @@ header nav li:first-child {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    font-family: triplicate, monospace;
 }
 
 .information-border {
@@ -509,7 +402,6 @@ span.sidenote small {
 }
 
 code, math {
-    font-family: triplicate, monospace;
     text-wrap: wrap;
 }
 
