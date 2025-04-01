@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main>
+<article>
+<h1 id="{{ .Title }}">{{ .Title }}</h1>
+{{ .Content }}
+</article>
+</main>
+<div style="margin-top: 2rem"></div>
+<div id="image-grid" class="row mb-4">
+    {{- range .Site.Data.mapart.mapart -}}
+        <div class="card mb-3 mb-auto">
+            <div class="imgwrapper">
+                {{- $imgBase := "/mapart/" -}}
+                {{- $src := printf "%s%s" $imgBase .src -}}
+                {{ $actualImg := $src }}
+                <a href="{{ $actualImg }}" title="{{ .name }}">
+                    <img src="{{ $actualImg }}" loading="lazy" alt="{{ .name }}">
+                </a>
+            </div>
+        </div>
+    {{ end }}
+</div>
+{{ end }}
