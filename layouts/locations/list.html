@@ -1,0 +1,21 @@
+{{- define "main" -}}
+<main>
+<article>
+        <h1>{{ .Title }}</h1>
+    {{ .Content }}
+<section>
+{{- range sort .Pages "Title" -}}
+<section>
+<h2>{{ .Title | markdownify }}</h2>
+<ul>
+{{- range sort .Pages "Title" -}}
+<li><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></li>
+{{- end -}}
+</ul>
+</section>
+<hr>
+{{- end -}}
+</section>
+</article>
+</main>
+{{- end -}}
