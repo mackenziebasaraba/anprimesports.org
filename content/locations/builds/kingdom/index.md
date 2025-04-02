@@ -43,5 +43,7 @@ tags:
 
 ![Zombie horde](zombie-horde.png)
 
-![The aftermath of the german grief.](german-grief.png "Some German twat joined during the night and griefed the server.")
+![The aftermath of the german grief.](german-grief.png)
+
+And there it ends; the server met an early fate as some German twat joined in the night and griefed our town. Lord, do I hate Germans.
 
