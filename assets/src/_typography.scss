@@ -15,8 +15,6 @@
 $line-height-heading: 1.2;
 
 h2, h3 {
-  font-weight: bold;
-  font-style: italic;
   line-height: #{$line-height-heading};
 }
 
@@ -80,6 +78,10 @@ a {
   &:hover {
     text-decoration: underline;
   }
+}
+
+ul, ol, dl, blockquote {
+  padding-inline-start: 2rem;
 }
 
 .external {
