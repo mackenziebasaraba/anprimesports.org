@@ -40,6 +40,12 @@ main {
   padding-right: #{$padding};
 }
 
+article {
+  max-width: #{$article-width};
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .grid-default {
   display: grid;
   grid-template-columns: #{$article-width} #{$side-width};
