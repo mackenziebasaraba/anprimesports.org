@@ -12,10 +12,10 @@ tags:
     - Spawn
 ---
 
-![Miku preaching](20250207-miku.png)
+![Miku preaching](20250207-miku.jpg)
 
-![Interior](20250207-interior.png)
+![Interior](20250207-interior.jpg)
 
-![Exterior](20250207-exterior.png)
+![Exterior](20250207-exterior.jpg)
 
-![Screenie](screenie.png)
+![Screenie](screenie.jpg)
