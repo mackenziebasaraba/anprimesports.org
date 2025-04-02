@@ -11,8 +11,12 @@ tags:
     - Spawn House
 ---
 
-![Exterior](20250207-exterior.png)
+![Exterior](20250207-exterior.jpg)
 
-![Living Room](20250207-living-room.png)
+![Living Room](20250207-living-room.jpg)
 
-![Basement](20250207-basement.png)
+![Basement](20250207-basement.jpg)
+
+![Property line](2022-property-line.jpg "Property line")
+
+Due to urban sprawl this gorgeous cottage has been gentrified by [Little Japan](/locations/builds/little-japan).
