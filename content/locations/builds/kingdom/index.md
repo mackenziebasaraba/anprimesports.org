@@ -21,17 +21,17 @@ tags:
 
 ![Kyle Lowry's fat ass](kyle-lowrys-fat-ass.png)
 
-![Wood store](wood-store.png "Wood store")
+![Wood store](wood-store.png)
 
-![Black smith](black-smith.png "Blacksmith") 
+![Black smith](black-smith.png)
 
-![Record Store](record-store.png "Record store")
+![Record Store](record-store.png)
 
-![Cucked](cuck.png "Cucked")
+![Cucked](cuck.png)
 
 ![Cucked part 2](cuck-2.png)
 
-![Fish Store](fish-store.png "Fish store")
+![Fish Store](fish-store.png)
 
 ![Campaign poster](campaign-poster.png)
 
@@ -39,7 +39,7 @@ tags:
 
 ![Town path](town-path.png)
 
-![The election](voting.png "Election night")
+![The election](voting.png)
 
 ![Zombie horde](zombie-horde.png)
 
