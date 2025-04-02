@@ -4,7 +4,6 @@
 <h1 id="{{ .Title }}">{{ .Title }}</h1>
 {{ .Content }}
 </article>
-</main>
 <div style="margin-top: 2rem"></div>
 <div id="image-grid" class="row mb-4">
     {{- range .Site.Data.mapart.mapart -}}
@@ -20,4 +19,5 @@
         </div>
     {{ end }}
 </div>
+</main>
 {{ end }}
