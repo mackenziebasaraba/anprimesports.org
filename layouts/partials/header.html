@@ -1,6 +1,10 @@
-<header class="top">
-    <nav aria-label="Main Navigation">
-        <h1 class="logo"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-        {{ partial "nav.html" . }}
-    </nav>
-</header>
+<nav aria-label="Main Navigation">
+  <header class="site-nav">
+    <div class="header-logo">
+      <a href="{{ .Site.BaseURL }}">
+        <p><strong>anprimesports.org</strong></p>
+      </a>
+    </div>
+    {{ partial "nav.html" . }}
+  </header>
+</nav>

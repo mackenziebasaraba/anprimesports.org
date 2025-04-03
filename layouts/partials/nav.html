@@ -1,19 +1,19 @@
-<ul class="navMenu">
-    {{- $currentPage := . -}}
-    {{- range .Site.Menus.main -}}
-    <li>
-        <a{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} class="active"{{ end }} href="{{ .URL }}"{{ if .HasChildren }} data-toggle="dropdown" aria-expanded="false"{{ end }}>{{ .Name }}</a>
-    </li>
-    {{- end -}}
-    <li class="server-ip">
-        <script>
-function copyToClipboard() {
-    const serverIP = ("anprimesports.org");
-    navigator.clipboard.writeText(serverIP);
+<ul class="header-nav">
+  {{- $currentPage := . -}}
+  {{- range .Site.Menus.main -}}
+  <li>
+    <a{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} class="active"{{ end }} href="{{ .URL }}"{{ if .HasChildren }} data-toggle="dropdown" aria-expanded="false"{{ end }}>{{ .Name }}</a>
+  </li>
+  {{- end -}}
+  <li class="server-ip">
+    <script>
+      function copyToClipboard() {
+        const serverIP = ("anprimesports.org");
+        navigator.clipboard.writeText(serverIP);
 
-    console.log("Copied the Minecraft server IP: " + serverIP);
-}
-</script>
-Join now: <button style="background: none; color: inherit; border: none; padding: 0; font: inherit; cursor: pointer; outline: none; border-bottom: 1px solid var(--textColour);" onclick="copyToClipboard()"><code>anprim-esports.org</code></button>.
-    </li>
+        console.log("Copied the Minecraft server IP: " + serverIP);
+      }
+    </script>
+    Join now: <button style="background: none; color: inherit; border: none; padding: 0; font: inherit; cursor: pointer; outline: none; border-bottom: 1px solid var(--textColour);" onclick="copyToClipboard()"><code>anprim-esports.org</code></button>.
+  </li>
 </ul>
