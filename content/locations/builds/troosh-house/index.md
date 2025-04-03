@@ -1,7 +1,7 @@
 ---
 title: "troosh's House"
 date: 2025-04-02T16:03:19-06:00
-buiders:
+builders:
     - troosh
     - pawmso
 tags:
