@@ -1,5 +1,5 @@
 ---
-title: "Shulker Store -- Little Japan"
+title: "Shulker Store"
 date: 2025-02-07T17:48:13-07:00
 draft: false
 x: "-24"

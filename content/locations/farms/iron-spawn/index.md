@@ -1,5 +1,5 @@
 ---
-title: Iron Farm -- Spawn
+title: Iron Farm
 draft: false
 x: 89
 z: "-119"

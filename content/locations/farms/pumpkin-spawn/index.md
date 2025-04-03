@@ -1,5 +1,5 @@
 ---
-title: Pumpkin Farm -- Spawn
+title: Pumpkin Farm
 draft: false
 x: 106
 z: 109

@@ -1,5 +1,5 @@
 ---
-title: Reed Farm -- Spawn
+title: Reed Farm
 draft: false
 x: 90
 z: 45
