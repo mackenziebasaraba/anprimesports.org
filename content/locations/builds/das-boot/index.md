@@ -17,6 +17,7 @@ tags:
 
 ![Basement](20250207-basement.jpg)
 
+Due to urban sprawl this gorgeous cottage has been gentrified by [Little Japan](/locations/builds/little-japan).
+
 ![Property line](2022-property-line.jpg "Property line")
 
-Due to urban sprawl this gorgeous cottage has been gentrified by [Little Japan](/locations/builds/little-japan).
