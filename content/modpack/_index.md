@@ -28,7 +28,7 @@ Now that you're within the launcher go ahead and sign into your Minecraft accoun
 
 ## 2. Installing the Modpack
 
-1. Download our [modpack here](anprim-modpack-20250408.mrpack).
+1. Download our [modpack here](/anprim-modpack-20250408.mrpack).
 
 1. Interact with the large green *plus* button at the bottom left.
 
