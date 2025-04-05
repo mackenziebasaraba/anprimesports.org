@@ -5,7 +5,8 @@ x: 184
 z: 162
 builders:
     - troosh
-tags: welfare
+tags:
+    - welfare
 draft: false
 ---
 
