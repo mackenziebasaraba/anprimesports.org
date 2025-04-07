@@ -1,6 +1,6 @@
 # anprimesports.org
 
-[anprimesports.org](https:www.anprimesports.org) is a repository of information
+[anprimesports.org](https://www.anprimesports.org) is a repository of information
 for a Minecraft SMP server of the same name. As the years have passed and life
 has taken hold, the server has been less frequented. This site exists to
 document our progress.
