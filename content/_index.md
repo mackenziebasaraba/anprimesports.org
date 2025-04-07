@@ -17,4 +17,4 @@ function copyToClipboard() {
     console.log("Copied the Minecraft server IP: " + serverIP);
 }
 </script>
-Join now at, <button style="background: none; color: inherit; border: none; padding: 0; font: inherit; cursor: pointer; outline: none; border-bottom: 1px solid var(--textColour);" onclick="copyToClipboard()"><code>anprim-esports.org</code></button>.
+Join now at, <button style="background: none; color: inherit; border: none; padding: 0; font: inherit; cursor: pointer; outline: none; border-bottom: 1px solid var(--textColour);" onclick="copyToClipboard()"><code>anprimesports.org</code></button>.
