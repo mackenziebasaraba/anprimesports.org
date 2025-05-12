@@ -7,7 +7,7 @@ draft: false
 
 The Modrinth App is a mod launcher for Minecraft, it makes downloading and duplicating instances effortless.
 
-You can download the launcher for your system here: [https://modrinth.com/app](https://modrinth/app).
+You can download the launcher for your system here: [https://www.modrinth.com/app](https://www.modrinth.com/app).
 
 Alternatively, if you use a Linux distribution mentioned below you can download the Modrinth App through your package manager:
 
